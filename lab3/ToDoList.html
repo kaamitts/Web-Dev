@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h3 {
+            background-color: black;
+            color: rgb(159, 154, 154);
+            padding: 5px;
+            border-radius: 5px;
+        }
+        /* h2{
+            position: relative;
+            top:50px;
+            left:200px;
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        } */
+        input, button {
+            padding: 10px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+        .form-container {
+            position: relative;
+            top:60px;
+            left:350px;
+            width: 65%;
+            gap: 10px;
+        }
+        #addButton{
+            background-color: rgb(84, 84, 222);
+            color:aliceblue;
+            padding: 8px;
+            font-size: 16px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+        #newTask, #addButton {
+            margin-left: 50px;
+        }
+
+        #newTask {
+            width: 65%;
+        }
+        .taskPart{
+            
+        }
+    </style>
+</head>
+<body>
+    <h3>ToDo List</h3>
+    
+    <div class="form-container">
+        <h2>ToDo List</h2>
+        <input type="text" id="newTask" name="newTask" placeholder="New Task">
+    
+        <button type="submit">Add</button>
+        <div class="taskPart">
+
+        </div>
+    </div>
+</body>
+</html>
